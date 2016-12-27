@@ -1,0 +1,16 @@
+[
+  {
+    "request": {
+      "body": "{\"series\":[{\"type\":\"gauge\",\"tags\":[\"environment:test\"],\"points\":[[14303118000000,20]],\"metric\":\"test.metric\",\"host\":\"test.example.com\"}]}",
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://app.datadoghq.com/api/v1/series?api_key=1234"
+    },
+    "response": {
+      "body": "{\"status\":\"ok\"}",
+      "status_code": 202,
+      "type": "ok"
+    }
+  }
+]

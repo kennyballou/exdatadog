@@ -1,0 +1,16 @@
+[
+  {
+    "request": {
+      "body": "",
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://app.datadoghq.com/api/v1/monitor/91879?api_key=1234&application_key=abcd"
+    },
+    "response": {
+      "body": "{\"id\":91879,\"message\":\"We may need to add web hosts if this is consistently high.\",\"name\":\"Bytes received on host0\",\"options\":{\"notify_audit\":false,\"notify_no_data\":false,\"silenced\":{}},\"org_id\":1499,\"query\":\"avg(last_1h):sum:system.net.bytes_rcvd{host:host0} > 100\",\"type\":\"metric alert\",\"multi\":false,\"created\":\"2015-12-18T16:34:14.014039+00:00\",\"modified\":\"2015-12-18T16:34:14.014039+00:00\"}",
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

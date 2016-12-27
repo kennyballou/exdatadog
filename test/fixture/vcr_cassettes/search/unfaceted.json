@@ -1,0 +1,16 @@
+[
+  {
+    "request": {
+      "body": "",
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://app.datadoghq.com/api/v1/search?api_key=1234&application_key=abcd&q=test"
+    },
+    "response": {
+      "body": "{\"results\":{\"hosts\":[\"test.another.example.com\",\"test.example.com\",\"test.host\",\"test.metric.host\",\"test.tag.host\"],\"metrics\":[\"test.metric\"]}}",
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
