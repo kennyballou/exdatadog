@@ -21,8 +21,8 @@ defmodule Exdatadog.Mixfile do
   defp deps do
     [{:credo, "~> 0.5.0", only: :dev},
      {:excoveralls, "~> 0.5", only: :test},
-     {:earmark, "~> 0.1", only: :docs},
-     {:ex_doc, "~> 0.11", only: :docs},
+     {:earmark, "~> 0.1", only: :dev},
+     {:ex_doc, "~> 0.11", only: :dev},
      {:exvcr, "~> 0.8.4", only: :test},
      {:httpoison, "~> 0.10.0"},
      {:meck, "~> 0.8", only: :test},
